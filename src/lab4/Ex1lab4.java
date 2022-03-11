@@ -48,14 +48,14 @@ class SavingAccount extends Account{
 	 }
 }
 
-class CurrentAccount extends Account{
-	final int overdraft_limit = 5;
-	
-	boolean withdraw() {
-		
-		return;
-	}
-}
+//class CurrentAccount extends Account{
+//	final int overdraft_limit = 5;
+//	
+//	boolean withdraw() {
+//		
+//		return;
+//	}
+//}
 
 class Person{
 	String name;
